@@ -1,0 +1,10 @@
+setwd("C:/Users/GCM/Documents/GitHub/Essentials-of-Data-Literacy-EDX")
+getwd()
+library(tidyverse)
+who <- read.csv("Datasets/world_health_organization.csv")
+glimpse(who)
+head(who)
+head(who, 7)
+tail(who)
+tail(who,7)
+
